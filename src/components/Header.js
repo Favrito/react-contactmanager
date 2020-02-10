@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Header = props => {
-  // Destructuring
   const { branding } = props;
 
   return (
@@ -29,7 +28,6 @@ Header.defaultProps = {
   branding: "My App"
 };
 
-// Typechecking
 Header.propTypes = {
   branding: PropTypes.string.isRequired
 };
